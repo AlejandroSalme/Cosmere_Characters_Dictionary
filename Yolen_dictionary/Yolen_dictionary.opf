@@ -1,0 +1,24 @@
+
+    <?xml version='1.0' encoding='UTF-8'?>
+    <package xmlns='http://www.idpf.org/2007/opf' unique-identifier='uid'>
+      <metadata>
+        <dc:title>Personajes de Yolen</dc:title>
+        <dc:language>es</dc:language>
+        <dc:identifier id='uid'>Yolen-dictionary</dc:identifier>
+        <meta name='cover' content='cover-image'/>
+        <x-metadata>
+        <DictionaryInLanguage>es</DictionaryInLanguage>
+        <DictionaryOutLanguage>es</DictionaryOutLanguage>
+        <DefaultLookupIndex>headword</DefaultLookupIndex>
+        </x-metadata>
+      </metadata>
+      <manifest>
+        <item id='content' href='content.xhtml' media-type='application/xhtml+xml'/>
+        <item id='css' href='style.css' media-type='text/css'/>
+        <item id='cover' href='Yolen_cover.jpg' media-type='image/jpeg'/>
+      </manifest>
+      <spine>
+        <itemref idref='content'/>
+      </spine>
+    </package>
+    

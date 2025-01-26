@@ -1,0 +1,5 @@
+requests==2.31.0
+selenium==4.11.2
+webdriver-manager==3.8.6
+beautifulsoup4==4.12.2
+questionary==1.10.0
