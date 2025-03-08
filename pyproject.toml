@@ -1,0 +1,16 @@
+[project]
+name = "cosmere-dictionary"
+version = "0.1.0"
+description = "Project dependencies installer"
+authors = [
+    {name = "Alejandro",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
